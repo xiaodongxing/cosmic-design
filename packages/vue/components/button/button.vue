@@ -20,6 +20,7 @@ const state = ref(props.disabled? 'disabled': 'normal');
 </script>
 <template>
     <div :class="[styles.button, state, size]">
+        <div>easdfasdf</div>
         <slot
             name="prefix"
             :class="[styles.prefix, size]"
