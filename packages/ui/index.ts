@@ -30,3 +30,6 @@ export * as table from './table/table.module.css';
 export * as card from './card/card.module.css';
 export * as tree from './tree/tree.module.css';
 export * as treeNode from './tree/tree-node.module.css';
+
+export * as breadcrumb from './tree/breadcrumb.module.css';
+export * as breadcrumbItem from './tree/breadcrumb-item.module.css';
